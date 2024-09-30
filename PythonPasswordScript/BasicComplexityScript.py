@@ -6,6 +6,7 @@ length, special characters, numbers, and upper/lowercase letters.
 """
 import re
 
+
 def main():
   pattern = r'^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{12,}$'
   pattern2 = r'^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{12,}$'
