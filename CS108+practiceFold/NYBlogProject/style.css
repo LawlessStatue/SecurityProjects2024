@@ -1,5 +1,5 @@
 body {
-	background: #e6e6e6;
+	background: #25f7d4;
 }
 
 nav ul {
@@ -18,7 +18,7 @@ nav li {
 
 li a {
 	display: block;
-	color: white;
+	color: rgb(156, 15, 15);
 	text-align: center;
 	padding: 30px 30px;
 	text-decoration: none;
